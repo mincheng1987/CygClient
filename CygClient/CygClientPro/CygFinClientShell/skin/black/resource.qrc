@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/windowcontrolbox/dialog_close_hover.png</file>
+        <file>img/windowcontrolbox/dialog_close_normal.png</file>
+        <file>img/windowcontrolbox/dialog_minimize.png</file>
+        <file>img/windowcontrolbox/dialog_minimize_hover.png</file>
+        <file>img/windowcontrolbox/icon_close.png</file>
+        <file>img/windowcontrolbox/icon_expand.png</file>
+        <file>img/windowcontrolbox/icon_mini.png</file>
+        <file>img/windowcontrolbox/icon_narrow.png</file>
+        <file>img/windowcontrolbox/flexTradeBtn.png</file>
+        <file>qss/0_controls.qss</file>
+    </qresource>
+</RCC>

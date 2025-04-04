@@ -1,0 +1,128 @@
+﻿/****************************************************************
+name_id:BaseWidget
+description: 基礎窗口
+*******************************************************************/
+
+BaseWidget {
+    background-color: #191919;
+}
+
+/****************************************************************
+name_id:BaseDialog
+description: 基礎彈框
+*******************************************************************/
+
+BaseDialog {
+    background-color: #191919;
+}
+
+
+
+/****************************************************************
+name_id:HZLine
+description:分割线
+*******************************************************************/
+HZLine
+{
+    color: #000000;
+}
+
+HZLine#style_line1
+{
+    color: #2a2a2a;
+}
+
+
+
+/****************************************************************
+name_id:TitleBar
+description:标题栏
+**************************S*****************************************/
+TitleBar
+{
+    background-color: #222222;
+}
+
+TitleBar QLabel#titleName
+{
+    background-color: transparent;
+    font-family: "Source Han Sans CN";
+    font-size: 16px;
+    font-weight: 400;
+    color: #FEFEFE;
+}
+
+
+/* w ---------------------------------------------------------------------*/
+/****************************************************************
+name_id:WindowControlBox
+description:窗口缩放，关闭按钮控件
+*******************************************************************/
+WindowControlBox {
+    background-color: transparent;
+}
+
+WindowControlBox>QPushButton
+{
+    width: 30px;
+    height: 30px;
+    border-width: 0px;
+}
+
+WindowControlBox QPushButton#minBtn{
+    border-image: url(:/img/windowcontrolbox/icon_mini.png) 0 0 0 0 repeat;
+}
+WindowControlBox QPushButton#minBtn:hover{
+    border-image: url(:/img/windowcontrolbox/icon_mini.png) 0 0 0 30 repeat;
+}
+WindowControlBox QPushButton#minBtn:pressed{
+    border-image: url(:/img/windowcontrolbox/icon_mini.png) 0 0 0 60 repeat;
+}
+WindowControlBox QPushButton#minBtn:disabled{
+    border-image: url(:/img/windowcontrolbox/icon_mini.png) 0 0 0 90 repeat;
+}
+
+WindowControlBox QPushButton#expandBtn
+{
+    border-image: url(:/img/windowcontrolbox/icon_expand.png) 0 0 0 0 repeat;
+}
+WindowControlBox QPushButton#expandBtn:hover
+{
+    border-image: url(:/img/windowcontrolbox/icon_expand.png) 0 0 0 30 repeat;
+}
+WindowControlBox QPushButton#expandBtn:pressed
+{
+    border-image: url(:/img/windowcontrolbox/icon_expand.png) 0 0 0 60 repeat;
+}
+WindowControlBox QPushButton#expandBtn:disabled
+{
+    border-image: url(:/img/windowcontrolbox/icon_expand.png) 0 0 0 90 repeat;
+}
+
+
+WindowControlBox QPushButton#narrowBtn{
+    border-image: url(:/img/windowcontrolbox/icon_narrow.png)0 0 0 0 repeat;
+}
+WindowControlBox QPushButton#narrowBtn:hover{
+    border-image: url(:/img/windowcontrolbox/icon_narrow.png) 0 0 0 30 repeat;
+}
+WindowControlBox QPushButton#narrowBtn:pressed{
+    border-image: url(:/img/windowcontrolbox/icon_narrow.png) 0 0 0 60 repeat;
+}
+WindowControlBox QPushButton#narrowBtn:disabled {
+    border-image: url(:/img/windowcontrolbox/icon_narrow.png) 0 0 0 90 repeat;
+}
+
+WindowControlBox QPushButton#closeBtn{
+    border-image: url(:/img/windowcontrolbox/icon_close.png) 0 0 0 0 repeat;
+}
+WindowControlBox QPushButton#closeBtn::hover{
+    border-image: url(:/img/windowcontrolbox/icon_close.png) 0 0 0 30 repeat;
+}
+WindowControlBox QPushButton#closeBtn::pressed{
+    border-image: url(:/img/windowcontrolbox/icon_close.png) 0 0 0 60 repeat;
+}
+WindowControlBox QPushButton#closeBtn::disabled{
+    border-image: url(:/img/windowcontrolbox/icon_close.png) 0 0 0 90 repeat;
+}
+

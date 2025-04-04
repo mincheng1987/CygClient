@@ -1,0 +1,12 @@
+#ifndef CYG_CLIENTCORE_GLOBAL_H
+#define CYG_CLIENTCORE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CYG_CLIENTCORE_LIBRARY)
+#define CYG_CLIENTCORE_EXPORT Q_DECL_EXPORT
+#else
+#define CYG_CLIENTCORE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CYG_CLIENTCORE_GLOBAL_H 
