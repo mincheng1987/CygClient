@@ -11,6 +11,10 @@ macos 14
 
 # skin
 目前支持黑白两种皮肤的运行时切换。
+## mac
+![image](https://github.com/mincheng1987/CygClient/tree/main/CygClient/doc/img/mac_ui.png)
+## win
+![image](https://github.com/mincheng1987/CygClient/tree/main/CygClient/doc/img/win_ui.png)
 
-# 其他功能
-陆续开发中
+#整体架构设计
+![file](https://github.com/mincheng1987/CygClient/tree/main/CygClient/doc/行情客户端项目整体规划.pdf)
