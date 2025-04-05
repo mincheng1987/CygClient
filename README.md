@@ -18,3 +18,6 @@ macos 14
 
 # 整体架构设计
 [行情客户端项目整体规划](https://github.com/mincheng1987/CygClient/tree/main/CygClient/doc/行情客户端项目整体规划.pdf)
+
+# 其他功能
+持续迭代中
