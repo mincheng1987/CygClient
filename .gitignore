@@ -1,4 +1,5 @@
 # C++ objects and libs
+
 *.slo
 *.lo
 *.o
@@ -31,6 +32,13 @@ Makefile*
 *build-*
 *.qm
 *.prl
+
+Output
+debug
+release
+.qtc_clangd
+*qmake*
+
 
 # Qt unit tests
 target_wrapper.*
